@@ -14,6 +14,7 @@ int main() {
     Wektor wektor(x, y);
 
     cout << "Dlugosc wektora: " << wektor.dlugosc() << endl;
+    cout << "Kat wektora (w stopniach): " << wektor.kat() << endl;
 
     return 0;
 }

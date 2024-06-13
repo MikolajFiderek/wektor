@@ -5,6 +5,7 @@ class Wektor {
 public:
     Wektor(double x_val, double y_val);
     double dlugosc() const;
+    double kat() const;
     double getX() const;
     double getY() const;
 

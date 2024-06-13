@@ -7,6 +7,10 @@ double Wektor::dlugosc() const {
     return std::sqrt(x * x + y * y);
 }
 
+double Wektor::kat() const {
+    return std::atan2(y, x) * (180.0 / M_PI);
+}
+
 double Wektor::getX() const {
     return x;
 }
